@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Excercise7 {
 	
-	public static int[] getSecondSmallest(int[] a) {
+	public static int[] getSorted(int[] a) {
 		
 		List<Integer> list = new ArrayList<Integer>();
 		
@@ -37,7 +37,7 @@ public class Excercise7 {
 		for(int i = 0; i < n; i++) {
 			a[i] = sc.nextInt();
 		}
-		getSecondSmallest(a);
+		getSorted(a);
 		System.out.println("-------------------");
 		System.out.println("Sorted Array:");
 		for(int i = 0; i < n; i++) {
