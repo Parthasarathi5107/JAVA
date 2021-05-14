@@ -37,7 +37,7 @@ public class Excercise7 {
 		for(int i = 0; i < n; i++) {
 			a[i] = sc.nextInt();
 		}
-		getSecondSmallest(a);
+		 getSecondSmallest(a);
 		System.out.println("-------------------");
 		System.out.println("Sorted Array:");
 		for(int i = 0; i < n; i++) {
